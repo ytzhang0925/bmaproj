@@ -127,6 +127,7 @@ def outer_boundary():
     1. left, right
     2. with or without equal
     3. within range, on the range boundary, out of range"""
+    pass
 
 
 def grbmsg_dict_subset_region(msg, la0=15, la1=60, lo0=70, lo1=140):
