@@ -165,6 +165,7 @@ def grib2csv(file_dict):
             pivoted_dataframes[validity_datetime][model] = pd.melt(pivoted_dataframes[validity_datetime][model],
                                                                    id_vars=['lat'], var_name='lon',
                                                                    value_name='prcp.{}'.format(model))
+            # Test
 
     # 3. Merge them together as one DataFrame
     for key_date in pivoted_dataframes.keys():
